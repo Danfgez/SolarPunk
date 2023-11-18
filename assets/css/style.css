@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;   
+}
+
+#container{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+#nav{
+    background-color: rgb(96, 148, 86); 
+    display: table;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#nav ol {
+    display: flex; 
+}
+ 
+#nav ol li{
+    list-style:none;
+}
+
+#nav ol li a {
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+    display: table;
+    border-right: solid 2px rgb(0, 60, 255);
+    color: rgb(25, 97, 97);
+}
+
+
+.padding{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+#Header{
+    display: table;
+    width: 100%;
+    height:550px;
+    background-image: url(../img/99cc84dddf85497fb9c1bad3c07456dc.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#pie{
+    display: table;
+    width: 100%;
+    height: 15px;
+    color: rgb(25, 97, 97);
+    background-color: rgb(126, 242, 106);
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    font-weight: 700;
+    bottom: 0;
+    left: 0;
+ 
+} 
+
+#pie p{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 16px;
+}
+#pie svg{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+h3{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-weight: bold;
+    color: rgb(34, 146, 233);
+    font-family: cursive;
+}
+
+
+p{
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 16px;
+    font-style: italic;
+    font-family: cursive;
+}
+
+#Quees{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(126, 242, 106);
+    color: rgb(25, 97, 97);
+
+}
+
+#Energia{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(225, 255, 211);
+   color: rgb(25, 97, 97);
+
+}
+
+
+
+#Equipos{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(126, 242, 106);
+    color: rgb(25, 97, 97);
+    
+}
+
+#Finalidad{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(225, 255, 211);
+    color: rgb(25, 97, 97);
+
+}
+
+#Comunidad{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(225, 255, 211);
+    color: rgb(25, 97, 97);
+
+}
+#Agriurbana{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(126, 242, 106);
+    color: rgb(25, 97, 97);
+
+}
+
+#Contacto{
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(126, 242, 106);
+    color: rgb(25, 97, 97);
+    text-align: center;
+    
+    
+}
+
+#Contacto input{
+
+    width: 250px;
+    padding: 2px 2px 2px 2px;
+    margin-bottom: 0.5%;
+}
+
+
+
+.imageR{
+    float: right;
+    width: 150px;
+    height: 120px;
+    margin-left: 15px;
+    margin-right: 45px;
+    margin-bottom: 15px;
+
+}
+
+.imageL{
+    float: left;
+    width: 150px;
+    height: 120px;
+    margin-left: 45px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+
+.imageLB{
+    float: left;
+    width: 180px;
+    height: 200px;
+    margin-left: 35px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.imageRB{
+    float: right;
+    width: 180px;
+    height: 200px;
+    margin-left: 15px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+
+}
+
+.imageRW{
+    float: right;
+    width: 200px;
+    height: 150px;
+    margin-left: 15px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+
+.imageLW{
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin-left: 15px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+
+
+.imageCH{
+    width: 350px;
+    height: 300px;
+    float: none;
+    padding-bottom: 15px;
+}
+
+.ImageCen{
+    text-align: center;
+}
+
+.eye {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    top: 30%;
+}
+
+.eye.left {
+    left: 20%;
+}
+
+.eye.right {
+    right: 20%; 
+}
+
+
+.eye:before {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.antenna {
+    position: absolute;
+    width: 4px;
+    height: 50px;
+    background-color: black;
+    top: 10%;
+}
+
+.antenna.left {
+    left: 30%; 
+    transform: rotate(-25deg);
+}
+
+.antenna.right {
+    right: 30%; 
+    transform: rotate(25deg); 
+}
+
+.smile {
+
+    width: 120px;
+    height: 40px;
+    border: 4px solid black;
+    border-radius: 75%;
+    border-top: none;
+    position: relative;
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
