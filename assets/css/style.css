@@ -40,7 +40,6 @@ html{
 
 .padding{
     padding-top: 18px;
-    padding-bottom: 18px;
 }
 
 #Header{
@@ -166,7 +165,7 @@ p{
     background-color: rgb(126, 242, 106);
     color: rgb(25, 97, 97);
     text-align: center;
-    
+    border-bottom: 5px solid green;
     
 }
 
@@ -174,7 +173,7 @@ p{
 
     width: 250px;
     padding: 2px 2px 2px 2px;
-    margin-bottom: 0.5%;
+    margin-bottom: 0.9%;
 }
 
 
@@ -246,66 +245,5 @@ p{
 
 .ImageCen{
     text-align: center;
-}
-
-.eye {
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background-color: black;
-    border-radius: 50%;
-    top: 30%;
-}
-
-.eye.left {
-    left: 20%;
-}
-
-.eye.right {
-    right: 20%; 
-}
-
-
-.eye:before {
-    content: '';
-    display: block;
-    width: 35px;
-    height: 35px;
-    background-color: white;
-    border-radius: 50%;
-    position: absolute;
-    top: 25%;
-    left: 25%;
-}
-
-.antenna {
-    position: absolute;
-    width: 4px;
-    height: 50px;
-    background-color: black;
-    top: 10%;
-}
-
-.antenna.left {
-    left: 30%; 
-    transform: rotate(-25deg);
-}
-
-.antenna.right {
-    right: 30%; 
-    transform: rotate(25deg); 
-}
-
-.smile {
-
-    width: 120px;
-    height: 40px;
-    border: 4px solid black;
-    border-radius: 75%;
-    border-top: none;
-    position: relative;
-    top: 65%;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
